@@ -28,12 +28,12 @@ jobs:
             sdk_url_suffix: lin-x64.zip
 
           - name: macOS x64
-            os: macos-13
+            os: macos-15
             rack_arch: mac-x64
             sdk_url_suffix: mac-x64.zip
 
           - name: macOS ARM64
-            os: macos-14
+            os: macos-15
             rack_arch: mac-arm64
             sdk_url_suffix: mac-arm64.zip
 
