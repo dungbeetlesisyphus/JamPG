@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <radialGradient id="in-shadow" cx="0.5" cy="0.55" r="0.5">
+      <stop offset="70%" stop-color="#000000" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="in-bezel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D6CCBF"/>
+      <stop offset="100%" stop-color="#B8AA98"/>
+    </linearGradient>
+    <linearGradient id="in-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4A3E38"/>
+      <stop offset="100%" stop-color="#2A1E18"/>
+    </linearGradient>
+  </defs>
+  <!-- Shadow -->
+  <circle cx="12" cy="12.8" r="10.5" fill="url(#in-shadow)"/>
+  <!-- Outer bezel — wide cream/bone ring, clearly light -->
+  <circle cx="12" cy="12" r="10.5" fill="url(#in-bezel)"/>
+  <!-- Body — dark inner area -->
+  <circle cx="12" cy="12" r="8" fill="url(#in-body)"/>
+  <!-- Thin inward notch line -->
+  <circle cx="12" cy="12" r="8" fill="none" stroke="#1E1510" stroke-width="0.5"/>
+  <!-- Cable hole -->
+  <circle cx="12" cy="12" r="4" fill="#0A0806"/>
+  <!-- Subtle inward chevron marks — "receiving" arrows -->
+  <line x1="3.5" y1="12" x2="5.5" y2="12" stroke="#8B7D6E" stroke-width="0.7" stroke-linecap="round"/>
+  <line x1="20.5" y1="12" x2="18.5" y2="12" stroke="#8B7D6E" stroke-width="0.7" stroke-linecap="round"/>
+  <line x1="12" y1="3.5" x2="12" y2="5.5" stroke="#8B7D6E" stroke-width="0.7" stroke-linecap="round"/>
+  <line x1="12" y1="20.5" x2="12" y2="18.5" stroke="#8B7D6E" stroke-width="0.7" stroke-linecap="round"/>
+</svg>

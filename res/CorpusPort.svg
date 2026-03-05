@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <radialGradient id="out-shadow" cx="0.5" cy="0.55" r="0.5">
+      <stop offset="70%" stop-color="#000000" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="out-body" cx="0.5" cy="0.4" r="0.5">
+      <stop offset="0%" stop-color="#3A2E28"/>
+      <stop offset="100%" stop-color="#1E1510"/>
+    </radialGradient>
+  </defs>
+  <!-- Shadow -->
+  <circle cx="12" cy="12.8" r="10.5" fill="url(#out-shadow)"/>
+  <!-- Outer bezel — dark, flush with body -->
+  <circle cx="12" cy="12" r="10.5" fill="#2A1E18"/>
+  <!-- Thick accent ring — the defining output feature -->
+  <circle cx="12" cy="12" r="10.5" fill="none" stroke="#8B7D6E" stroke-width="2"/>
+  <!-- Body -->
+  <circle cx="12" cy="12" r="9" fill="url(#out-body)"/>
+  <!-- Inner bright ring — signals radiate outward -->
+  <circle cx="12" cy="12" r="6.5" fill="none" stroke="#E8DFD4" stroke-width="0.8"/>
+  <!-- Cable hole -->
+  <circle cx="12" cy="12" r="4" fill="#0A0806"/>
+  <!-- Outward dot markers — "signal source" radiating -->
+  <circle cx="12" cy="2.5" r="0.8" fill="#B8AA98"/>
+  <circle cx="12" cy="21.5" r="0.8" fill="#B8AA98"/>
+  <circle cx="2.5" cy="12" r="0.8" fill="#B8AA98"/>
+  <circle cx="21.5" cy="12" r="0.8" fill="#B8AA98"/>
+</svg>

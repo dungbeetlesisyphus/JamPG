@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+  <defs>
+    <radialGradient id="screw-body" cx="0.4" cy="0.35" r="0.55">
+      <stop offset="0%" stop-color="#5A4E48"/>
+      <stop offset="100%" stop-color="#3A2E28"/>
+    </radialGradient>
+  </defs>
+  <!-- Body -->
+  <circle cx="7.5" cy="7.5" r="6.5" fill="url(#screw-body)"/>
+  <!-- Rim highlight -->
+  <circle cx="7.5" cy="7.5" r="6.5" fill="none" stroke="#6B5D50" stroke-width="0.5"/>
+  <!-- Cross slot -->
+  <line x1="7.5" y1="4" x2="7.5" y2="11" stroke="#2A1E18" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="4" y1="7.5" x2="11" y2="7.5" stroke="#2A1E18" stroke-width="0.8" stroke-linecap="round"/>
+</svg>
